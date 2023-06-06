@@ -1,0 +1,61 @@
+body{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    overflow-x: hidden;
+} 
+/* Header Styling  */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.header-logo{
+    width: 70%;
+}
+
+
+
+/* MAIN STYLING  */
+
+main{
+    margin: 1vw;
+}
+
+#imageCardArea{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content:flex-start;
+    
+}
+
+.cardBody{
+    width: 28vw;
+    background-color: #454545;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.cardBody a{
+    text-decoration: none;
+    color: white;
+}
+
+.cardHeading{
+    font-size: 5vh;
+    text-align: justify;
+    font-weight: 900;
+    margin: 0;
+}
+.cardImg{
+    width: 18vw;
+}
+.readNow{
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-size: 3vh;
+    font-weight: 800;
+}
